@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Payment to buy Courses</title>
+</head>
+<body>
+    
+    <div class="container">
+    <form action="" method="get">
+        <h2 class="pay">Payment Form!</h2><hr><br>
+        Name:<strong class="star">*</strong><input type="text" name="text" id="text" placeholder="Enter your name" required><br><br>
+        <fieldset>
+            <legend>Gender<strong class="star">*</strong></legend>
+            Male:<input type="radio" value="male"name="male" id="male">
+            Female:<input type="radio" value="female" name="female" id="female">
+            Others:<input type="radio" value="other" name="other" id="other">
+        </fieldset><br>
+            Address:<strong class="star">*</strong><br><textarea type="text" rows="7" cols="29" placeholder="Enter your address" required></textarea><br><br>
+            Email:<strong class="star">*</strong><input type="email" name="email" id="email" placeholder="pandey@gmail.com" required><br><br>
+            Pincode:<strong class="star">*</strong><input type="number" name="pincode" id="pincode" placeholder="123456" required>
+   
+    <h1 class="pay">Payment Information</h1><hr><br>
+    Card Type:<strong class="star">*</strong>
+    <select>
+    <option>select a card type</option>
+    <option>Visa</option>
+    <option>Debit Card</option>
+    <option>Master Card</option>
+</select><br><br>
+    Card Number:<strong class="star">*</strong><input type="number" name="cardnumber" id="cardnumber" placeholder="1111-2222-3333" required><br><br>
+    Expiry Date:<strong class="star">*</strong><input type="date" name="expiry" id="expiry"><br><br>
+    CVV:<strong class="star">*</strong><input type="password" name="cvv" id="cvv" placeholder="123" required><br><br>
+    Amount:<strong class="star">*</strong><input type="Number" name="Amount" id="amount" placeholder="$ Enter Amount" required><br><br>
+    <input type="submit" name="PayNow" value="Pay Now">
+
+</form>
+</div>
+</body>
+</html>
